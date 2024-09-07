@@ -1,6 +1,6 @@
 
-Exception Handling merupakan bentuk dari if else dengan security
-example;
+//Exception Handling merupakan bentuk dari if else dengan security
+//example;
 
 Scanner scan = new Scanner();
 
@@ -9,10 +9,10 @@ int y = scan.next();
 int z = x/y;
 System.out.println("Hasil adalah" + z);
 
-jika user menginputkan 0 maka yang tejadi adalah error, untuk menghindari kejadian tersebut
-dan memberhentikan keseluruhan program kita menggunakan exception handling
+//jika user menginputkan 0 maka yang tejadi adalah error, untuk menghindari kejadian tersebut
+//dan memberhentikan keseluruhan program kita menggunakan exception handling
 
-menggunakan exception handling:
+//menggunakan exception handling:
 try{
 
 int x = scan.next();
