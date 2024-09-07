@@ -13,8 +13,8 @@ public class Main {
     Character[] arr3 = {'j', 'e', 'n', 'a', 'k'};
 
  
-    public static <T> void DisplayArray(T[] args) {
-        for (T x : args) {
+    public static <Alltype> void DisplayArray(T[] args) {
+        for (Alltype x : args) {
             System.out.print(x + " ");
         }
         System.out.println(); 
